@@ -1,0 +1,27 @@
+{
+    "version": "1.2.2",
+    "description": "A truly minimal markdown editor",
+    "homepage": "https://typora.io",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://support.typora.io/License-Agreement/"
+    },
+    "notes": "This package has a 15-day free trial",
+    "url": "https://download.typora.io/windows/typora-setup-x64-1.2.2-dev.exe",
+    "hash": "ef526d6e8e2995426346a0d94a0303e84e7d58dedb3d17c32220b13d5c87125c",
+    "innosetup": true,
+    "bin": "Typora.exe",
+    "shortcuts": [
+        [
+            "Typora.exe",
+            "Typora"
+        ]
+    ],
+    "checkver": {
+        "url": "https://typora.io/releases/dev",
+        "regex": "<h2>([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://download.typora.io/windows/typora-setup-x64-$version-dev.exe"
+    }
+}
