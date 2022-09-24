@@ -1,12 +1,12 @@
 {
-    "version": "1.8.8",
+    "version": "1.9.2",
     "homepage": "https://deadbeef.sourceforge.io",
     "description": "DeaDBeeF (as in 0xDEADBEEF) is a modular cross-platform audio player which runs on GNU/Linux distributions, macOS, Windows, *BSD, OpenSolaris, and other UNIX-like systems.",
     "license": "GPL-2.0,...",
     "architecture": {
         "64bit": {
-            "url": "https://downloads.sourceforge.net/project/deadbeef/travis/windows/1.8.8/deadbeef-1.8.8-windows-x86_64.zip",
-            "hash": "sha1:2f05578852668599319746b38753668fd69a72b8"
+            "url": "https://downloads.sourceforge.net/project/deadbeef/travis/windows/1.9.2/deadbeef-1.9.2-windows-x86_64.zip",
+            "hash": "sha1:eb56a249802bc810db01777a7e883267636b3d72"
         }
     },
     "bin": "deadbeef.exe",
@@ -17,9 +17,7 @@
         ]
     ],
     "extract_dir": "deadbeef-x86_64",
-    "persist": [
-        "config"
-    ],
+    "persist": "config",
     "checkver": {
         "url": "https://deadbeef.sourceforge.io/news0.html",
         "regex": "DeaDBeeF ([\\d.]+)"
